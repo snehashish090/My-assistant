@@ -69,9 +69,9 @@ def Config():
     driver.find_element_by_xpath(
         "/html/body/div[1]/header/div/div[2]/div[2]/a[1]").click()
     input1 = driver.find_element_by_xpath("//*[@id=\"login_field\"]")
-    input1.send_keys("snehashish090")
+    input1.send_keys("USERNAME")
     input2 = driver.find_element_by_id("password")
-    input2.send_keys("snehashish08036")
+    input2.send_keys("PASSWORD")
     button1 = driver.find_element_by_xpath(
         "/html/body/div[3]/main/div/div[4]/form/div/input[12]").click()
     button2 = driver.find_element_by_xpath(
